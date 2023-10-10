@@ -3,4 +3,10 @@ function tocaSomPom(){
 }
 document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
-function tocaSomClap
+function tocaSomClap(){
+    document . querySelector('#som_tecla_clap').play();
+}
+document.querySelector('.tecla_clap').onclick = tocaSomClap;
+
+const listaDeTeclas = document.querySelectorAll('.tecla');
+listaDeTeclas[2]. onclick = TocaSomClap;
